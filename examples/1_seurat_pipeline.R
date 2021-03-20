@@ -29,6 +29,7 @@ for (res in resolutions) {
                        obj,
                        reduction = reduction,
                        assay = assay,
+                       npcs = npcs,   ###change made from original github repository 
                        resolution = res
   )
   clusters <- obj[[glue::glue("{reduction}.{assay}_res.{res}")]]
