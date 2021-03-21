@@ -34,7 +34,7 @@ find_clusters <- function(
                           obj,
                           reduction = "pca",
                           npcs = 100,
-                          assay = "integrated",
+                          assay = "SCT",
                           features = NULL,
                           resolution = 0.8,
                           verbose = FALSE) {
@@ -42,7 +42,7 @@ find_clusters <- function(
     obj,
     reduction = reduction,
     dims = 1:npcs,
-    assay = integtrated,
+    assay = assay,    ###changed from original repository
     features = features,
     verbose = verbose,
     graph.name = paste(reduction, assay, sep = ".")
