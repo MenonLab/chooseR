@@ -24,7 +24,7 @@ This will create a local project and install the dependencies there, rather than
 ## Usage
 
 Two example scripts are included in this repo. The [first](./examples/1_seurat_pipeline.R) runs through the main analysis framework and covers the key steps, including iterative, sub-sampled clustering, calculating the co-clustering frequency matrix, determining the silhouette scores, and creating the silhouette distribution plots.
-The [second](./examples/2_seurat_further_visuaisations.R) covers several additionaly visualisations that we used in the paper and find useful for understanding the patterns and clusters within your data. 
+The [second](./examples/2_seurat_further_visuaisations.R) covers several additional visualisations that we used in the paper and find useful for understanding the patterns and clusters within your data. 
 Both these files can be run as stand-alone scripts, as so:
 
 ```R
