@@ -29,7 +29,7 @@ Both these files can be run as stand-alone scripts, as so:
 
 ```R
 Rscript examples/1_seurat_pipeline.R
-Rscript examples/2_seurat_further_visuaisations.R
+Rscript examples/2_seurat_further_visualisations.R
 ```
 
 If used this way, they are meant to be run sequentially. Alternatively, they can be opened with any modern IDE or editor for interactive execution.
