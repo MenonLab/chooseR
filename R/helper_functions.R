@@ -45,12 +45,12 @@ find_clusters <- function(
     assay = assay,    ###changed from original repository
     features = features,
     verbose = verbose,
-    graph.name = paste(reduction, assay, sep = ".")
+    #graph.name = paste(reduction, assay, sep = ".")   ###renaming graph name causes instability, modified from original version
   )
   obj <- Seurat::FindClusters(
     obj,
     resolution = resolution,
-    graph.name = paste(reduction, assay, sep = "."),
+    #graph.name = paste(reduction, assay, sep = "."),  ###renaming graph name causes instability, modified from original version
     verbose = verbose
   )
   return(obj)
