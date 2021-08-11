@@ -32,7 +32,7 @@ for (res in resolutions) {
                        npcs = npcs,   ###change made from original github repository 
                        resolution = res
   )
-  clusters <- obj[[glue::glue("{reduction}.{assay}_res.{res}")]]
+  clusters <- obj[[glue::glue("{assay}_snn_res.{res}")]]   ###updated to use standard naming of graphs, which is stable as compared to custom naming
 
   # Now perform iterative, sub-sampled clusters
   results <- multiple_cluster(
